@@ -259,7 +259,7 @@ main {
     gap: 1.5rem;
 }
 
-.main__content2 iframe {
+.main__content2 img {
     width: 100%;
     aspect-ratio: 16/9;
 }
