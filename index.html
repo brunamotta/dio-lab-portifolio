@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bruna Motta | Portfolio</title>
+    <!-- meta tags -->
+    <meta name="description" content="Portfolio de Bruna Motta, desenvolvedora web front-end.">
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="header__brand">
+            <a href="#home">
+                <!-- <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA"> -->Bruna Motta
+            </a>
+        </div>
+
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+
+    </header>
+
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <div class="main__content1">
+            <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+            <p>Bruna Motta, Rio de Janeiro-RJ, Designer e Desenvolvedora Front-end.</p> 
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/brunamotta" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/brunamottap/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a class="menu__link" href="" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#projetos">
+                <button class="btn btn--primary">
+                    <span>Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>  
+            </a>
+        </div>
+
+        <div class="main__content2">
+            <iframe src="https://www.youtube.com/embed/HXKz2-Sohfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <section class="technologies">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="technologies__list">
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo Java">
+            </li>
+        </ul>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/projects/josisbox.jpg" alt="Capa Josi's Box">
+                <div class="card__body">
+                    <h3 class="card__title">Nome do projeto</h3>
+                    <p class="card__description">breve descrição</p>
+                    <ul class="card__list">
+                        <li class="card__item">Funcionalidade 1;</li>
+                        <li class="card__item">Funcionalidade 2;</li>
+                        <li class="card__item">Funcionalidade 3;</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span>Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>  
+                        <button class="btn">
+                            <span>Repositório</span>
+                        </button>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="assets/images/projects/archstil.jpg" alt="Capa Archstil">
+                <div class="card__body">
+                    <h3 class="card__title">Nome do projeto</h3>
+                    <p class="card__description">breve descrição</p>
+                    <ul class="card__list">
+                        <li class="card__item">Funcionalidade 1;</li>
+                        <li class="card__item">Funcionalidade 2;</li>
+                        <li class="card__item">Funcionalidade 3;</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+                        </li>
+                    </ul>
+                    
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span>Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>  
+                        <button class="btn">
+                            <span>Repositório</span>
+                        </button>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/projects/games-store.jpg" alt="Capa Games Store">
+                <div class="card__body">
+                    <h3 class="card__title">Nome do projeto</h3>
+                    <p class="card__description">breve descrição</p>
+                    <ul class="card__list">
+                        <li class="card__item">Funcionalidade 1;</li>
+                        <li class="card__item">Funcionalidade 2;</li>
+                        <li class="card__item">Funcionalidade 3;</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span>Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>  
+                        <button class="btn">
+                            <span>Repositório</span>
+                        </button>  
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/brunamotta">
+                <button class="btn btn--primary">
+                    <span>Ver Todos os Projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>  
+            </a>
+            
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="assets/images/avatar.png" alt="">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>
+                    Bruna Motta. Apaixonada por moda, design e tecnologia, meu primeiro contato com programação foi na pré-adolescência quando brincava com HTML, CSS e um pouco de JavaScript no Microsoft FrontPage desenvolvendo templates para blogs.
+                </p> 
+                <p>
+                    Sou formada em Análise e Desenvolvimento de Sistemas, minha primeira graduação foi em Design com habilitação em moda. Atuo como desenvolvedora freelance.
+                </p>  
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Intermediário | Espanhol: Básico</span>
+                </div>
+                
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/elidianaandrade/" target="_blank">
+                        <button class="btn btn--primary">
+                        <span>Conecte-se Comigo</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                        </button> 
+                    </a>
+                    <a href="">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3>Formação</h3>
+                    <h4>Análise e desenvolvimento de Sistemas</h4>
+                    <span>Ago 2022 - Dez 2024</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Universidade Veiga de Almeida</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Graduação - Tecnólogo</span>
+                    </div>
+
+                    <h4>Design: habilitação em moda</h4>
+                    <span>Fev 2014 - Dez 2017</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Faculdade Senai-Cetiqt</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Graduação - Bacharelado</span>
+                    </div>
+                </div>
+                
+                <div class="row2">
+                    <h3>Experiências</h3>
+                    <h4>Estagiária</h4>
+                    <span>Procuradora Geral do Estado do RJ Dez 2022 - Atualmente</span>
+                    <span>Desenvolvimento front end e design de interfaces de usuários dos sistemas internos da casa.</span>
+                    <ul class="about__list">
+                        <li class="about__item">Elaboração de protótipos;</li>
+                        <li class="about__item">Desenvovliimentos de views;</li>
+                        <li class="about__item">Realização de testes de software.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>Cursos</h3>
+                <div id="accordion">
+                    <div class="accordion__item active">
+                        <button class="accordion__header start">
+                            <span>Formação React com Javascript</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        
+                        <div class="accordion__body">
+                            <p>
+                                Alura. Nov 2024. 60h.
+                            </p>
+                            <p>
+                                O que é React.js, implementação de componentes reativos, Hooks do React, roteamento da aplicação em React Router, Styled Components, Context API, diferenças entre trabalhar utilizando JavaScript e TypeScript, etc. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Contribuindo em um Projeto Open Source no GitHub</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Fev 2023. 1h.
+                            </p>
+                            <p>
+                                Lab prático sobre colaboração em projetos de código aberto.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header end">
+                            <span>Versionamento de Código com Git e GitHub</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body end">
+                            <p>
+                                Digital Innovation One. Nov 2024. 2h.
+                            </p>
+                            <p>
+                                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                                com o repositório remoto. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="contact">
+        <h2>Contate-me</h2>
+        <p>Estou disponível para serviços e novas conexões. Contate-me via 
+            e-mail e conecte-se comigo através das minhas redes sociais.
+        </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/brunamotta" target="_blank">
+                    <i class="menu__icon bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/brunamottap/" target="_blank">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="" target="_blank">
+                    <i class="menu__icon bi bi-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:brunamottap@gmail.com">
+            <button class="btn btn--primary">
+                <span class="email">brunamottap@gmail.com</span>
+            </button>  
+        </a>
+    </section>
+
+    <footer>
+        <p>
+            © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+            <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+            <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
+        </p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
