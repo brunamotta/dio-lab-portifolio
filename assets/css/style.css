@@ -473,18 +473,22 @@ main {
     align-items: flex-start;
     gap: 0.625rem;
     border: 1px solid var(--primary-border-color);
+    transition: ease-in-out .3s;
 }
 
 .accordion__item.active .accordion__header {
     background: var(--secondary-bg-color);
+    transition: ease-in-out .3s;
 }
 
 .accordion__item.active .accordion__body {
     display: flex;
+    transition: ease-in-out .3s;
 }
 
 .accordion__item.active .bi-caret-down-fill {
     transform: rotate(180deg);
+    transition: ease-in-out .3s;
 }
 
 .contact {
